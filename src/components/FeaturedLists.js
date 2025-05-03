@@ -13,7 +13,7 @@ export default function FeaturedLists(props) {
   const [index, setIndex] = React.useState(0);
   const timeoutRef = React.useRef(null);
 
-
+console.log(photos)
   // Image change timing
 
   function resetTimeout() {

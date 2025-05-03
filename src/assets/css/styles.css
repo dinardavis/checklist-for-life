@@ -92,7 +92,10 @@ body {
 }
 
 .main-nav-logo {
-  width: 90px;
+  width: 100px;
+  padding: 10px;
+  border-radius: 7px;
+  border: 1px solid #000;
 }
 
 .newsletter-signup {
@@ -190,10 +193,14 @@ body {
   width: 30px;
   background-color: rgba(255, 255, 255, 0.4);
   font-size: 1.4rem;
-  border-radius: 50%;
+  border-radius: 7px;
   cursor: pointer;
   transition: all .2s ease-in-out;
   z-index: 11;
+}
+
+.featured-slide-arrow:hover {
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .featured-slide-arrow.left {
@@ -216,8 +223,9 @@ body {
 
 .featured-photo-summary {
   position: absolute;
-  top: 1rem;
+  bottom: 5rem;
   right: 1rem;
+  background:  rgba(255, 255, 255, 0.7);
   text-align: right;
 }
 
@@ -232,7 +240,7 @@ body {
   align-items: center;
   justify-content: flex-end;
   padding: .3rem .8rem;
-  background: var(--background-light);
+
   color: var(--font-main);
   font-size: .8rem;
   border-radius: 5rem;
